@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://mol-analyzer-backend.onrender.com/$1"
+      "destination": "https://topo-indices.onrender.com/$1"
     }
   ]
 }
