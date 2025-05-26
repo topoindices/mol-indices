@@ -10,8 +10,8 @@ import time
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', '180c429ccb052d91f250593c4dad77bf549a831c4425138e76045227252a5a74')
-ADMIN_EMAILS = [e.strip().lower() for e in os.environ.get('ADMIN_EMAILS', 'anthuvanjoseph21@gmail.com').split(',')]
-CONTACT_EMAIL = os.environ.get('CONTACT_EMAIL', 'anthuvanjoseph21@gmail.com')
+ADMIN_EMAILS = [e.strip().lower() for e in os.environ.get('ADMIN_EMAILS', 'topoindices@gmail.com').split(',')]
+CONTACT_EMAIL = os.environ.get('CONTACT_EMAIL', 'topoindices@gmail.com')
 
 # Add session cookie configuration
 app.config.update(
