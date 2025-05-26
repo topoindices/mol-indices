@@ -9,7 +9,7 @@ import shutil
 import time
 
 app = Flask(__name__)
-app.secret_key = os.environ.get('SECRET_KEY', '48176aa6387c857025fc16c0807cbbdbdbabd88547e1fca8bef17603d86cef29')
+app.secret_key = os.environ.get('SECRET_KEY', '180c429ccb052d91f250593c4dad77bf549a831c4425138e76045227252a5a74')
 ADMIN_EMAILS = [e.strip().lower() for e in os.environ.get('ADMIN_EMAILS', 'anthuvanjoseph21@gmail.com').split(',')]
 CONTACT_EMAIL = os.environ.get('CONTACT_EMAIL', 'anthuvanjoseph21@gmail.com')
 
