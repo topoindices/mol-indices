@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://mol-analyzer-backend.onrender.com/$1"
+    }
+  ]
+}
